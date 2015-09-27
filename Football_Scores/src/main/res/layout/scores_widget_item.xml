@@ -28,6 +28,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/primary_text_default_material_light"
                 android:gravity="center"
                 android:text="@string/test_text"
                 android:id="@+id/home_name"
@@ -57,7 +58,8 @@
                 android:layout_gravity="center"
                 android:gravity="center"
                 android:id="@+id/data_textview"
-                android:contentDescription="@string/data_description"/>
+                android:contentDescription="@string/data_description"
+                android:textColor="@color/primary_text_default_material_light" />
 
         </LinearLayout>
         <LinearLayout
@@ -79,8 +81,9 @@
                 android:gravity="center"
                 android:text="@string/test_text"
                 android:textAppearance="@style/TextAppearance.AppCompat.Small"
+                android:textColor="@color/primary_text_default_material_light"
                 android:id="@+id/away_name"
                 android:contentDescription="@string/away_crest_description"/>
         </LinearLayout>
     </LinearLayout>
- </LinearLayout>
+</LinearLayout>
