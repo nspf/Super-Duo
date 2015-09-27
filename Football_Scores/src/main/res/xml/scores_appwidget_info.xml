@@ -1,0 +1,11 @@
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minWidth="250dp"
+    android:minHeight="180dp"
+    android:updatePeriodMillis="0"
+    android:previewImage="@drawable/scores_widget"
+    android:initialLayout="@layout/scores_widget"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen"
+    tools:ignore="UnusedAttribute">
+</appwidget-provider>

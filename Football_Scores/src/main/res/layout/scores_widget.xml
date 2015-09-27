@@ -1,0 +1,45 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="@color/md_green_500"
+        android:id="@+id/scores_widget">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/scores_widget_title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:paddingLeft="@dimen/keyline_1"
+        android:paddingStart="@dimen/keyline_1"
+        android:paddingRight="@dimen/keyline_1"
+        android:paddingEnd="@dimen/keyline_1"
+        android:textColor="@android:color/white"
+        android:layout_gravity="center_vertical"
+        tools:targetApi="jelly_bean_mr1"
+        android:contentDescription="@string/widget_description"/>
+
+    </LinearLayout>
+
+        <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/grey_300">
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id = "@+id/scores_list"
+        android:divider="@color/grey_300"
+        android:dividerHeight="1sp"
+        />
+    </FrameLayout>
+
+</LinearLayout>
+
